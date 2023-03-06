@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const Base_URL = 'https://api.unsplash.com/search/photos?page=1&query'
+const Base_URL = 'https://api.unsplash.com/search/photos?page'
 
 const API = 'QMuboMrF4wS64cV8PIAGmgvxlEtTMuxa3E2-5h2ZLp4'
 

@@ -12,7 +12,7 @@ const Photos = ({ item }) => {
     const [images, setImages] = useState([]);
 
     useEffect(() => {
-        FetchAPI(`${currPage}&query${item ? item : 'nature'}`).then((data) => setImages(data.results));
+        FetchAPI(`${currPage}&query=${item ? item : 'nature'}`).then((data) => setImages(data.results));
     },[item, currPage])
 
     return (
