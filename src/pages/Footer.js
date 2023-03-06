@@ -17,7 +17,7 @@ const Footer = ({ setItem }) => {
                 <button onClick={handleClick} className='item'>Car</button>
                 <button onClick={handleClick} className='item'>Bike</button>
                 <button onClick={handleClick} className='item'>MotorBike</button>
-                <button onClick={handleClick} className='item'>Plain</button>
+                <button onClick={handleClick} className='item'>Airplain</button>
             </div>
             <div className='center-footer'>Natute Section
                 <button onClick={handleClick} className='item'>Birds</button>
