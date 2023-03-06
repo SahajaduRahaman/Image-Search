@@ -4,6 +4,7 @@
     background-color: rgb(60, 81, 202);
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     padding: 10px;
+    gap: 8px;
 }
 
 .navbar > input {

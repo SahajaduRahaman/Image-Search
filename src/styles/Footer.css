@@ -4,7 +4,11 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 100px;
+    min-height: 153px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .left-footer{
