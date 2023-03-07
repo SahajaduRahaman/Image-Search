@@ -15,21 +15,21 @@ const Footer = ({ setItem }) => {
         <div className='footer'>
             <div className='left-footer'>Vehicle Section
                 <button onClick={handleClick} className='item'>Car</button>
-                <button onClick={handleClick} className='item'>Bike</button>
+                <button onClick={handleClick} className='item'>McLaren</button>
                 <button onClick={handleClick} className='item'>MotorBike</button>
-                <button onClick={handleClick} className='item'>Airplain</button>
+                <button onClick={handleClick} className='item'>Ferrari</button>
             </div>
             <div className='center-footer'>Natute Section
                 <button onClick={handleClick} className='item'>Birds</button>
-                <button onClick={handleClick} className='item'>Tiger</button>
+                <button onClick={handleClick} className='item'>Jungle</button>
                 <button onClick={handleClick} className='item'>Nature</button>
                 <button onClick={handleClick} className='item'>Mountain</button>
             </div>
-            <div className='right-footer'>Sports Section
-                <button onClick={handleClick} className='item'>Cricket</button>
-                <button onClick={handleClick} className='item'>Hockey</button>
-                <button onClick={handleClick} className='item'>Tennis</button>
-                <button onClick={handleClick} className='item'>Football</button>
+            <div className='right-footer'>Others Section
+                <button onClick={handleClick} className='item'>Games</button>
+                <button onClick={handleClick} className='item'>Sunset</button>
+                <button onClick={handleClick} className='item'>Galaxy</button>
+                <button onClick={handleClick} className='item'>Painting</button>
             </div>
         </div>
     )
