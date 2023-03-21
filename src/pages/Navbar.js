@@ -10,7 +10,9 @@ const Navbar = ({ item, setItem }) => {
     const dispatch = useDispatch();
 
     const handleChange = (e) => {
-        setItem(e.target.value);
+        setTimeout(() => {
+            setItem(e.target.value);
+        }, 3000);
     }
 
     const handleLink = () => {

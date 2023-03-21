@@ -21,7 +21,7 @@ const Photos = ({ item }) => {
                 images.map((item) => (
                     <div className='image-item'  key={item.id}>
                         <Link className='phoo' to={`photos/${item.id}`} >
-                            <img src={item.urls.thumb} alt=''/>
+                            <img className='phoo-image' src={item.urls.thumb} alt=''/>
                         </Link>
                     </div>
                 ))

@@ -14,9 +14,9 @@ const Footer = ({ setItem }) => {
     return (
         <div className='footer'>
             <div className='left-footer'>Vehicle Section
-                <button onClick={handleClick} className='item'>Car</button>
+                <button onClick={handleClick} className='item'>Lamborghini</button>
                 <button onClick={handleClick} className='item'>McLaren</button>
-                <button onClick={handleClick} className='item'>MotorBike</button>
+                <button onClick={handleClick} className='item'>Aston Martin</button>
                 <button onClick={handleClick} className='item'>Ferrari</button>
             </div>
             <div className='center-footer'>Natute Section
